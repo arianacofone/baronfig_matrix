@@ -2,10 +2,10 @@
   "name": "baronfig_matrix",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "open index.html"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
     "cheerio": "^0.22.0",
     "express": "^4.14.1",
     "fs-extra": "^2.0.0",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7",
     "request": "^2.79.0"
   }
 }
